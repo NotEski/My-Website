@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style: oblique;
+}
+
+p {
+    color: black;
+    text-align: right;
+}
