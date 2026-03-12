@@ -1,21 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declan Golebiowski | Portfolio</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <link rel="stylesheet" href="main.css">
-    <h1>Welcome to my website</h1>
-    <p><a href="about.html">About Me</a></p>
-    <p><a href="contact.html">Contact Me</a></p>
-    <br><br>
-    <p>Here are links to my portfolio</p>
-    <p>Linkedin - <a href="https://au.linkedin.com/in/declan-golebiowski-86a999243">au.linkedin.com/in/declan-golebiowski-86a999243</a> </p>
-    <p>Github - <a href="https://github.com/noteski">Github.com/noteski</a></p>
-    <iframe src="https://scratch.mit.edu/projects/725955509/embed" allowtransparency="true" width="485" height="402"
-        frameborder="0" scrolling="no" allowfullscreen></iframe><br />
-    <p>A link to the projects source can be found here <a
-            href="https://scratch.mit.edu/projects/725955509/editor/">Scratch.mit.edu</a></p>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <p class="brand">Declan Golebiowski</p>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero card">
+            <p class="tag">Portfolio</p>
+            <h1>Welcome to my website</h1>
+            <p>
+                I build and share projects while continuing to learn and grow as a developer.
+                Explore my links and featured project below.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Links</h2>
+            <ul class="link-list">
+                <li>
+                    <span>LinkedIn</span>
+                    <a
+                        href="https://au.linkedin.com/in/declan-golebiowski-86a999243">au.linkedin.com/in/declan-golebiowski-86a999243</a>
+                </li>
+                <li>
+                    <span>GitHub</span>
+                    <a href="https://github.com/noteski">github.com/noteski</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Featured Project</h2>
+            <p>Playable Scratch project:</p>
+            <div class="project-frame">
+                <iframe src="https://scratch.mit.edu/projects/725955509/embed" allowtransparency="true" width="485"
+                    height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+            <p>
+                Source project:
+                <a
+                    href="https://scratch.mit.edu/projects/725955509/editor/">scratch.mit.edu/projects/725955509/editor/</a>
+            </p>
+        </section>
+    </main>
 </body>
 
 </html>
